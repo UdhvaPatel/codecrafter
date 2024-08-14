@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .inputContainer {
+    display: flex;
+    padding: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+  }
+  
+  .input {
+    width: calc(100% - 1rem);
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border: none;
+    outline: none;
+  }
+  
+  .button {
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+  }
+  
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .messagesContainer {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+  }
+  
+  .message {
+    margin-bottom: 0.5rem;
+  }
+  
+  .messageContent {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    white-space: pre-wrap;
+  }
+  
+  .avatar {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .text {
+    font-size: 0.875rem;
+    margin-left: 10px;
+    margin-top: 6px;
+    margin-right: 3px;
+  }
+  
+  .skeletonContainer {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .skeletonAvatar {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 9999px;
+  }
+  
+  .skeletonTextContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .skeletonText {
+    height: 1rem;
+    width: 250px;
+  }
+  
+  .skeletonTextShort {
+    height: 1rem;
+    width: 200px;
+  }
+  
+  .error {
+    margin-top: 1rem;
+    color: red;
+  }
+  

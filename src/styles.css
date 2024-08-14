@@ -1,0 +1,14 @@
+@media (min-width: 768px) {
+    .sidebar {
+      display: flex !important;
+    }
+    .main-content {
+      padding-left: 18rem !important;
+    }
+  }
+
+
+.focus-visible-ring-transparent:focus-visible {
+  box-shadow: 0 0 transparent;
+}
+  
