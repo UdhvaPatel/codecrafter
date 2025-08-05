@@ -10,7 +10,7 @@ CodeCrafter is a multi-functional AI web application that leverages **Google's G
 
 ## 🔥 Live Demo
 
-**Portfolio:** [[https://codecrafter-app.vercel.app/](https://codecrafter-app.vercel.app/)  
+**Portfolio:** [https://codecrafter-app.vercel.app/](https://codecrafter-app.vercel.app/)  
 *(Deployed via Vercel – Demo videos available on request)*
 
 ---
@@ -65,7 +65,6 @@ CodeCrafter is a multi-functional AI web application that leverages **Google's G
 
 ## 📧 Contact
 Udhva Patel
-📫 dal134756@utdallas.edu
-📎 LinkedIn | 🌐 Portfolio
-git clone https://github.com/your-username/codecrafter-ai-suite.git
-cd codecrafter-ai-suite
+📫 udhvapatel21@gmail.com
+📎 [LinkedIn](https://www.linkedin.com/in/udhva-patel/) | 🌐 [Portfolio](https://udhvapatel.vercel.app/)
+
