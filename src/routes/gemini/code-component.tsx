@@ -7,7 +7,7 @@ import { Skeleton } from '@/components/ui/skeleton';
 import ReactMarkdown from 'react-markdown'
 import toast from 'react-hot-toast';
 
-// ...Use code comments for explanations, Explain code after writing code as a Explanation.
+
 
 const genAI = new GoogleGenerativeAI("AIzaSyC96UucCQ_I_ToUtl00WphY9V_jWkGalM0");
 const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
@@ -18,7 +18,6 @@ const CodeComponent = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  // const fullMessage = 'Your Name is CodeCrafter. Give me a response as you are an advanced Code Generation model of CodeCrafter. You must answer only in markdown code snippets. Explain code after writing code as a Explanation. ' + input;
   
   const chat = model.startChat({ history: [] });
 
