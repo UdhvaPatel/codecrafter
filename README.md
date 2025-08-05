@@ -65,6 +65,8 @@ CodeCrafter is a multi-functional AI web application that leverages **Google's G
 
 ## 📧 Contact
 Udhva Patel
+
 📫 udhvapatel21@gmail.com
+
 📎 [LinkedIn](https://www.linkedin.com/in/udhva-patel/) | 🌐 [Portfolio](https://udhvapatel.vercel.app/)
 
