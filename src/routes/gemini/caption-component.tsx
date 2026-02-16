@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import toast from 'react-hot-toast';
 
 // Initialize the Google Generative AI with your API key
-const genAI = new GoogleGenerativeAI("AIzaSyC96UucCQ_I_ToUtl00WphY9V_jWkGalM0"); // Replace with your actual API key
+const genAI = new GoogleGenerativeAI("AIzaSyAXrwUydMKZjBs4-ZdvJ03Wf5czmDFULos"); // Replace with your actual API key
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 interface GenerativePart {
