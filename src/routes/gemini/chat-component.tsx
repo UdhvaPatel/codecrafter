@@ -9,7 +9,7 @@ import { Skeleton } from '@/components/ui/skeleton';
 import toast from 'react-hot-toast';
 
 
-const genAI = new GoogleGenerativeAI("AIzaSyC96UucCQ_I_ToUtl00WphY9V_jWkGalM0");
+const genAI = new GoogleGenerativeAI("AIzaSyAXrwUydMKZjBs4-ZdvJ03Wf5czmDFULos");
 const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
 
 const ChatComponent = () => {
